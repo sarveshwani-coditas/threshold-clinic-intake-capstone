@@ -11,6 +11,14 @@
     <groupId>com.coditas</groupId>
     <artifactId>threshold-clinic-intake-capstone</artifactId>
     <version>0.0.1-SNAPSHOT</version>
+
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>patient-module</module>
+        <module>utility-module</module>
+    </modules>
+
     <name>threshold-clinic-intake-capstone</name>
     <description>threshold-clinic-intake-capstone</description>
     <url/>
@@ -69,6 +77,21 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>com.coditas</groupId>
+                <artifactId>utility-module</artifactId>
+                <version>0.0.1-SNAPSHOT</version>
+            </dependency>
+            <dependency>
+                <groupId>com.coditas</groupId>
+                <artifactId>patient-module</artifactId>
+                <version>0.0.1-SNAPSHOT</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
 
     <build>
         <plugins>
