@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.coditas</groupId>
-    <artifactId>threshold-clinic-intake-capstone</artifactId>
+    <artifactId>utility-module</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>threshold-clinic-intake-capstone</name>
-    <description>threshold-clinic-intake-capstone</description>
+    <name>utility-module</name>
+    <description>utility-module</description>
     <url/>
     <licenses>
         <license/>

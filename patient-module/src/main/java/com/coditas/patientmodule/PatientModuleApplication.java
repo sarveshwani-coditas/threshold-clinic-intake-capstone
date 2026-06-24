@@ -1,13 +1,13 @@
-package com.coditas.thresholdclinicintakecapstone;
+package com.coditas.patientmodule;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ThresholdClinicIntakeCapstoneApplication {
+public class PatientModuleApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(ThresholdClinicIntakeCapstoneApplication.class, args);
+        SpringApplication.run(PatientModuleApplication.class, args);
     }
 
 }
