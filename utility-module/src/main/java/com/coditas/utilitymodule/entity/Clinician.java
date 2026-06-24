@@ -1,4 +1,4 @@
-package com.coditas.thresholdclinicintakecapstone.entity;
+package com.coditas.utilitymodule.entity;
 
 import jakarta.persistence.*;
 import lombok.Getter;
